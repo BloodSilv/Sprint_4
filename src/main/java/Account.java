@@ -12,7 +12,9 @@ public class Account {
              Если строка удовлетворяет условиям, метод возвращает true, иначе — false.
          */
 
-        if (this.name == null) { return false;}
+        if (this.name == null) {
+            return false;
+        }
         return name.matches("(?=.{3,19}$)[a-zA-Zа-яА-Я]+\\s[a-zA-Zа-яА-Я]+");
     }
 }
