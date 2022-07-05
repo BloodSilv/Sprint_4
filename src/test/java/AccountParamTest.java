@@ -20,24 +20,24 @@ public class AccountParamTest {
 
     @Parameterized.Parameters
     public static Object[] getStatus() {
-        return new Object[][] {
-                { "Тимоти Шаламе", true},
-                { " Тимоти Шаламе", false},
-                { "Тимоти Шаламе ", false},
-                { "Т а", true},
-                { "ТимотиШаламе", false},
-                { "ТимотиШаламе ", false},
-                { " ТимотиШаламе", false},
-                { "ТимотиШаламе ТимотиШ", false},
-                { "ТимотиШаламе Тимоти", true},
-                { "Тимо  тиШаламе", false},
-                { " ", false},
-                { null , false},
+        return new Object[][]{
+                {"Тимоти Шаламе", true},
+                {" Тимоти Шаламе", false},
+                {"Тимоти Шаламе ", false},
+                {"Т а", true},
+                {"ТимотиШаламе", false},
+                {"ТимотиШаламе ", false},
+                {" ТимотиШаламе", false},
+                {"ТимотиШаламе ТимотиШ", false},
+                {"ТимотиШаламе Тимоти", true},
+                {"Тимо  тиШаламе", false},
+                {" ", false},
+                {null, false},
         };
     }
 
     @Step("Проверка имени {name}")
-    public void setUp(String name){
+    public void setUp(String name) {
         account = new Account(name);
     }
 
@@ -48,5 +48,4 @@ public class AccountParamTest {
         setUp(name);
         assertEquals(status, account.checkNameToEmboss());
     }
-
 }

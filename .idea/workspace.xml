@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e6d3e48c-ebd0-42d5-8895-933a8cfe9fd9" name="Changes" comment="Sprint_4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Praktikum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Praktikum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AccountParamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AccountParamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +36,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Sprint_4_Old&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "F:/Sprint_4_Old",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.AccountParamTest">
+}]]></component>
+  <component name="RunManager" selected="JUnit.AccountParamTest.testCheckNameCard">
     <configuration name="Praktikum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Praktikum" />
       <module name="Sprint_4" />
@@ -61,8 +61,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AccountParamTest.testCheckNameCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AccountParamTest" />
+      <option name="METHOD_NAME" value="testCheckNameCard" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountParamTest.testCheckNameCard" />
         <item itemvalue="JUnit.AccountParamTest" />
         <item itemvalue="Application.Praktikum" />
       </list>
@@ -94,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656390491231</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Sprint_4">
+      <created>1656818341275</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656818341275</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
